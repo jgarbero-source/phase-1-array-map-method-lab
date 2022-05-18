@@ -55,9 +55,7 @@ const titleCased = () => {
 }
 
 // function titleCased(array) {
-//   let titleCasedArray = array.map(x => x.split(' ')
-//   .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
-//   .join(' '))
+//   let titleCasedArray = array.map(x => x.split(' ').map(w => w[0].toUpperCase() + w.substr(1)).join(' '))
 //   return titleCasedArray
 // }
 // console.log(titleCased(tutorials))
